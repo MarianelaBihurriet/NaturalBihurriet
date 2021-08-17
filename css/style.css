@@ -1,0 +1,303 @@
+/* Agrupar propiedades*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+footer div aside, footer div, .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2, .section-3 h2 .color-h2, section .color-h1 {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+section h2, .section-3 h2 .color-h2, section .color-h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: lightcyan;
+  }
+}
+/*desktop*/
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  body {
+    background-color: lightgray;
+  }
+}
+/* INICIO HEADER*/
+/* Reduzco la imagen del logo y del index*/
+header .menu-conteiner {
+  background-color: lightgrey;
+}
+header nav {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+header:hover {
+  font-size: 105%;
+  text-decoration-color: #606d60;
+}
+header:visited {
+  color: #606d60;
+}
+
+/* FIN HEADER*/
+/* Agrupar propiedades*/
+footer div aside, footer div, .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2, .section-3 h2 .color-h2, section .color-h1 {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+section h2, .section-3 h2 .color-h2, section .color-h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: lightcyan;
+  }
+}
+/*desktop*/
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  body {
+    background-color: lightgray;
+  }
+}
+/* INICIO INDEX*/
+/* seccion 1 */
+section .imagen-inicio {
+  width: 1080px;
+  flex-wrap: wrap;
+}
+section .imagen-inicio:hover {
+  transform: scale(1.05);
+  transition: all 2s;
+}
+/* fin seccion 1*/
+/* SECCION 2*/
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section .photo-grid-conteiner {
+  width: 100%;
+  align-content: center;
+  flex-direction: row;
+}
+section .photo-grid {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+section .foto-grid-1:hover {
+  transition: all 2s;
+  transform: scale(1.3);
+}
+
+/*FIN SECCION 2*/
+/* SECCION 3*/
+.section-3 {
+  padding: 5%;
+  flex-direction: column;
+}
+.section-3 h2 .color-h2 {
+  padding-top: 10%;
+}
+
+/* FIN INDEX*/
+/* DEMAS SECCIONES*/
+/*Padding h2*/
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* las secciones tendran otro tipo de color */
+section {
+  padding: 3%;
+  color: darkolivegreen;
+  background-color: peachpuff;
+}
+section h2 {
+  padding-top: 10%;
+}
+
+.dentro {
+  list-style-position: inside;
+}
+
+/* Agrupar propiedades*/
+footer div aside, footer div, .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .color-h1, .section-3 h2 .color-h2, section h2 {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+section .color-h1, .section-3 h2 .color-h2, section h2 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: lightcyan;
+  }
+}
+/*desktop*/
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  body {
+    background-color: lightgray;
+  }
+}
+/*  footer  */
+footer {
+  padding: 5%;
+  background-color: lightgrey;
+}
+footer div {
+  flex-direction: row;
+}
+footer div aside {
+  flex-direction: column;
+}
+footer div .footer-conteiner {
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 10% 0% 10%;
+}
+footer div .logo-rrss {
+  width: 8%;
+}
+
+/* fin footer*/
+/* MEDIA QUERY*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: lightcyan;
+  }
+}
+/*desktop*/
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  body {
+    background-color: lightgray;
+  }
+}
+/* Agrupar propiedades*/
+.section-3, footer div, footer div aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .color-h1, .section-3 h2 .color-h2, section h2 {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+section .color-h1, .section-3 h2 .color-h2, section h2 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Empiezo a armar mi CSS. Empiezo poniendo estilo */
+/* quito formato*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

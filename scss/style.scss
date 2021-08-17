@@ -1,0 +1,19 @@
+@import 'componentes/header'; 
+@import 'componentes/main'; 
+@import 'componentes/footer';
+@import 'base/media';
+@import 'base/extends';
+@import 'base/variables';
+@import 'base/mixins';
+
+/*Empiezo a armar mi CSS. Empiezo poniendo estilo */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+/* quito formato*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+

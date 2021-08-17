@@ -1,0 +1,31 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/extends';
+@import'../base/media';
+
+/* INICIO HEADER*/
+
+/* Reduzco la imagen del logo y del index*/
+
+header {
+    .menu-conteiner {
+        background-color: $background-color;
+    }
+    nav {
+    padding: 0px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    position: fixed;
+    }
+
+    &:hover {
+    font-size: 105%;
+    text-decoration-color:rgb(96, 109, 96);
+    }
+    
+    &:visited{
+    color: rgb(96, 109, 96);
+    }
+}
+
+/* FIN HEADER*/

@@ -1,0 +1,18 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/extends';
+@import'../base/media';
+
+section .grid-container {
+
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 50px 50px 50px;
+  background-color: $back-section;
+  grid-gap: 60px;
+  padding-top: 60px;
+ align-items: center;
+  
+}
+  
+
