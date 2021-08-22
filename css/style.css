@@ -121,25 +121,29 @@ section .imagen-inicio:hover {
   transform: scale(1.05);
   transition: all 2s;
 }
+section p {
+  padding-top: 5%;
+}
+
 /* fin seccion 1*/
 /* SECCION 2*/
-section {
+section .photo-grid-conteiner {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-section .photo-grid-conteiner {
+section .photo-grid-conteiner .photo-grid-conteiner {
   width: 100%;
   align-content: center;
   flex-direction: row;
 }
-section .photo-grid {
+section .photo-grid-conteiner .photo-grid {
   width: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
 }
-section .foto-grid-1:hover {
+section .photo-grid-conteiner .foto-grid-1:hover {
   transition: all 2s;
   transform: scale(1.3);
 }
