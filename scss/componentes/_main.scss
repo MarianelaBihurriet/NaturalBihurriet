@@ -6,11 +6,13 @@
 /* INICIO INDEX*/
 
 /* seccion 1 */
-section {
+section {    
+  
   .imagen-inicio {
-    width: 1080px;
+    width: 100%;
     flex-wrap: wrap;
-
+    align-items: center;
+    justify-content: center;
     &:hover {
       @include transform;
     }
@@ -21,29 +23,19 @@ section {
   @extend %animacion;
   }
 
- p {
-   padding-top: 5%;
- }
-
 }
 /* fin seccion 1*/
 
 
 /* SECCION 2*/
-section {
-  .photo-grid-conteiner {
-
-  
+section.photo-grid-conteiner {
+ 
   display: flex;
+  flex-direction: row;
   justify-content:center;
   flex-wrap:wrap;
-  
-  .photo-grid-conteiner{
   width:100%;  
   align-content: center;
-  flex-direction:row
-
-  }
 
   .photo-grid {
     width: auto;
@@ -52,12 +44,15 @@ section {
     padding: 20px;
   }
 
+  p {
+    padding: 0% 25% 0% 25%;
+  }
+
   .foto-grid-1:hover {
     transition: all 2s;
     transform: scale(1.3);
   }
-}
-}
+ }
 
 /*FIN SECCION 2*/
 
@@ -72,7 +67,6 @@ section {
     .color-h2 {
       @extend %titulo-principal;
       @extend %animacion;
-      padding-top: 10%;
     }
   }
  
@@ -82,9 +76,6 @@ section {
 /* FIN INDEX*/
 
 /* DEMAS SECCIONES*/
-
-/*Padding h2*/
-
 
 
 @keyframes aparecer {
@@ -98,19 +89,14 @@ section {
 
 /* las secciones tendran otro tipo de color */
 section {
-  padding: 3%;
+  padding: 1%;
   color: darkolivegreen;
   background-color:$back-section;
-
+  
   h2 {
     @extend %titulo-principal;
     @extend %animacion;
-    padding-top: 10%;
     }
-}
-
-.dentro {
-  list-style-position: inside;
 }
 
 

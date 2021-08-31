@@ -28,31 +28,16 @@ section h2, .section-3 h2 .color-h2, section .color-h1 {
 }
 
 /* MEDIA QUERY*/
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: lightgoldenrodyellow;
-  }
-}
 /*tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: lightcyan;
-  }
-}
 /*desktop*/
-@media only screen and (min-width: 961px) and (max-width: 1200px) {
-  body {
-    background-color: lightgray;
-  }
-}
 /* INICIO HEADER*/
 /* Reduzco la imagen del logo y del index*/
 header .menu-conteiner {
   background-color: lightgrey;
 }
-header nav {
-  padding: 0px 20px;
+header .navbar {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   position: fixed;
 }
@@ -94,56 +79,40 @@ section h2, .section-3 h2 .color-h2, section .color-h1 {
 }
 
 /* MEDIA QUERY*/
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: lightgoldenrodyellow;
-  }
-}
 /*tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: lightcyan;
-  }
-}
 /*desktop*/
-@media only screen and (min-width: 961px) and (max-width: 1200px) {
-  body {
-    background-color: lightgray;
-  }
-}
 /* INICIO INDEX*/
 /* seccion 1 */
 section .imagen-inicio {
-  width: 1080px;
+  width: 100%;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 section .imagen-inicio:hover {
   transform: scale(1.05);
   transition: all 2s;
 }
-section p {
-  padding-top: 5%;
-}
-
 /* fin seccion 1*/
 /* SECCION 2*/
-section .photo-grid-conteiner {
+section.photo-grid-conteiner {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-}
-section .photo-grid-conteiner .photo-grid-conteiner {
   width: 100%;
   align-content: center;
-  flex-direction: row;
 }
-section .photo-grid-conteiner .photo-grid {
+section.photo-grid-conteiner .photo-grid {
   width: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
 }
-section .photo-grid-conteiner .foto-grid-1:hover {
+section.photo-grid-conteiner p {
+  padding: 0% 25% 0% 25%;
+}
+section.photo-grid-conteiner .foto-grid-1:hover {
   transition: all 2s;
   transform: scale(1.3);
 }
@@ -154,13 +123,8 @@ section .photo-grid-conteiner .foto-grid-1:hover {
   padding: 5%;
   flex-direction: column;
 }
-.section-3 h2 .color-h2 {
-  padding-top: 10%;
-}
-
 /* FIN INDEX*/
 /* DEMAS SECCIONES*/
-/*Padding h2*/
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -171,18 +135,10 @@ section .photo-grid-conteiner .foto-grid-1:hover {
 }
 /* las secciones tendran otro tipo de color */
 section {
-  padding: 3%;
+  padding: 1%;
   color: darkolivegreen;
   background-color: peachpuff;
 }
-section h2 {
-  padding-top: 10%;
-}
-
-.dentro {
-  list-style-position: inside;
-}
-
 /* Agrupar propiedades*/
 footer div aside, footer div, .section-3 {
   display: flex;
@@ -212,23 +168,8 @@ section .color-h1, .section-3 h2 .color-h2, section h2 {
 }
 
 /* MEDIA QUERY*/
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: lightgoldenrodyellow;
-  }
-}
 /*tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: lightcyan;
-  }
-}
 /*desktop*/
-@media only screen and (min-width: 961px) and (max-width: 1200px) {
-  body {
-    background-color: lightgray;
-  }
-}
 /*  footer  */
 footer {
   padding: 5%;
@@ -252,23 +193,8 @@ footer div .logo-rrss {
 
 /* fin footer*/
 /* MEDIA QUERY*/
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: lightgoldenrodyellow;
-  }
-}
 /*tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: lightcyan;
-  }
-}
 /*desktop*/
-@media only screen and (min-width: 961px) and (max-width: 1200px) {
-  body {
-    background-color: lightgray;
-  }
-}
 /* Agrupar propiedades*/
 .section-3, footer div, footer div aside {
   display: flex;

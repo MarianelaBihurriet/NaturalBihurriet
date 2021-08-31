@@ -11,9 +11,9 @@ header {
     .menu-conteiner {
         background-color: $background-color;
     }
-    nav {
-    padding: 0px 20px; 
+   .navbar {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between; 
     position: fixed;
     }

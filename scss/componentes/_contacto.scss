@@ -1,5 +1,10 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/extends';
+@import'../base/media';
 
-.section-container {
+
+section.section-container {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;

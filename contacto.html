@@ -38,77 +38,96 @@
 
 <body>
          
-   <!-- INICIO HEADER-->
+    <!-- INICIO HEADER-->
     <header>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top menu-conteiner">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-          <img src="images/logo.jpg" width="12%" alt="logo natural">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top menu-conteiner">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.jpg" width="12%" alt="logo natural">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Producto.html">Producto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ideas.html">Ideas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Nosotros.html" >Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html" >Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-<!-- FIN HEADER-->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="producto.html">Producto</a>
+              </li>
+               <li class="nav-item">
+               <a class="nav-link" href="ideas.html">Ideas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Nosotros.html" >Nosotros</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN HEADER-->
 
-    <section >
-        <h2>Contactanos</h2>
-    </section>
 
-    <section class="section-contacto" >
-        <p>Completá nuestro formulario para entrar en contacto con nosotros </p>
-    </section>
+  <section >
+   <h2>Contactanos</h2>
+  </section>
 
-    <section>
-
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Indicanos tu correo</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Escribinos tu consulta</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-     </section>
+  <section class="section-contacto" >
+   <p>Completá nuestro formulario para entrar en contacto con nosotros </p>
+  </section>
 
     
+ <section>
+    <form method="POST" action="enviar2.php">
+      <div class="mb-3">
+       <label for="nombre" class="form-label" > Nombre </label>
+       <input type="text" class="form-control" name="Nombre" id="nombre" placeholder="Mi nombre">
+     </div>
 
-    <section class="section-contacto">
-        
-        <h3>Nuestras Políticas</h3>
-    </section>
- 
-    <Section> 
-      <p>Todos nuestros productos son elaborados a mano y con un gran cuidado.</p>
-      <p> Para saber más sobre nuestras políticas haz click aqui  </p>
-      <p> test rama</p>
-      <a class="boton" href="politicas">Ver más</a>
-    </Section>
+     <div class="mb-3">
+       <label for="mail" class="form-label" >E-mail</label>
+       <input type="email" class="form-control"  name="mail" id="mail" placeholder="micorreo@ejemplo.com">
+      </div>
 
-     <!-- INICIO FOOTER-->
-    
+      <div class="mb-3">
+       <label for="asunto" class="form-label" >Asunto </label>
+       <input type="text" class="form-control"  name="Nombre" id="asunto" placeholder="Consulta">
+      </div>
+
+      <div class="mb-3">
+       <label for="mensaje" class="form-label" >Mensaje</label>
+       <textarea name="texto-libre" class="form-control"  id="mensaje" cols="30" rows="10" placeholder=" Buenas tardes, quisiera saber ... Saludos."
+       ></textarea>
+      </div>
+
+      <div class="mb-3" class="form-label" >
+       <input class="form-control" type="submit" value="Enviar" >
+      </div>
+
+    </form>
+  </section>
+
+ <section>
+   <h2>Nuestras Políticas</h2>
+
+   <p> Buscamos el respeto con el ambiente que nos rodea, trabajando para que podamos tener un futuro más prometedor.
+    * Falla producto: Hacemos cambios si la falla viene de fábrica. 
+    *Cambios/Devoluciones: Se aceptan hasta 48 Hs.
+    * Transporte. no nos hacemos responsables por inconvenientes en el traslado del producto.
+    * La información otorgada sobre durabilidad se relaciona con experiencias de una muestra de usuarios. Esto no implica que todos los casos deban ser de la misma forma. 
+   </p>
+  
+  </section>  
+
+
+  <!-- INICIO FOOTER-->
+  
     <footer >
         <div class= "footer-direccion">
             <aside>
