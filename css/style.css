@@ -1,5 +1,13 @@
-/* Agrupar propiedades*/
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Agrupar propiedades*/
 footer div aside, footer div, .section-3 {
   display: flex;
   justify-content: center;
@@ -50,6 +58,14 @@ header:visited {
 }
 
 /* FIN HEADER*/
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* Agrupar propiedades*/
 footer div aside, footer div, .section-3 {
   display: flex;
@@ -124,7 +140,12 @@ section.photo-grid-conteiner .foto-grid-1:hover {
   flex-direction: column;
 }
 /* FIN INDEX*/
-/* DEMAS SECCIONES*/
+/* las secciones tendran otro tipo de color */
+section {
+  padding: 1%;
+  color: darkolivegreen;
+  background-color: peachpuff;
+}
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -132,12 +153,6 @@ section.photo-grid-conteiner .foto-grid-1:hover {
   100% {
     opacity: 1;
   }
-}
-/* las secciones tendran otro tipo de color */
-section {
-  padding: 1%;
-  color: darkolivegreen;
-  background-color: peachpuff;
 }
 /* Agrupar propiedades*/
 footer div aside, footer div, .section-3 {
@@ -223,6 +238,14 @@ section .color-h1, .section-3 h2 .color-h2, section h2 {
   }
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*Empiezo a armar mi CSS. Empiezo poniendo estilo */
 /* quito formato*/
 * {

@@ -4,19 +4,19 @@
 @import'../base/media';
 
 .grid-container {
-  /* es la que habilita grid*/
-  display: grid;
-  /*me dice las columnas y cuanto quiero que ocupen*/
-  grid-template-columns: 20% 80%;
+  /* es la que habilita grid
+  display: grid;*/
+  /*me dice las columnas y cuanto quiero que ocupen
+  grid-template-columns: 20% 80%;*/
   /*definir la cantidad de filas*/
-  grid-template-rows: 50px 50px 50px;
+ /* grid-template-rows: 50px 50px 50px;
   grid-gap: 10px;
   padding-top: 60px;
-  align-items: center;
+  align-items: center;*/
 }
- 
+ /*
  #griditem {
    text-align: center;
    font-weight: bold;
  }
-
+*/
