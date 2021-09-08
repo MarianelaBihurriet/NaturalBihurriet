@@ -1,12 +1,23 @@
 
 /* MEDIA QUERY*/
 @media only screen and (max-width: 400px) {
-
+   .container-fluid {
+       flex-wrap: nowrap;
+       flex-direction: row;
+   }
+    
+  .section .color-h1, .section-3 h2 .color-h2, section h2 {
+    padding-top: 20%;
+    padding-bottom: 2%;}
 }
 
 /*tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
  
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
 }
 
 /*desktop*/
