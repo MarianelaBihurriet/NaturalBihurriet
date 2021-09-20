@@ -10,10 +10,7 @@ section.section-container {
     flex-direction: column;
     align-items: center;
     }
-    
-.boton {
-    @extend %botones;
-}
+
 
 .formulario-contacto {
     width: 50%;

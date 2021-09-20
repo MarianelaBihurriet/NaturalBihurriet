@@ -16,15 +16,16 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between; 
     position: fixed;
+    padding: 0% 3%;
     }
 
     &:hover {
     font-size: 105%;
-    text-decoration-color:rgb(96, 109, 96);
+    text-decoration-color:black;
     }
     
     &:visited{
-    color: rgb(96, 109, 96);
+    color: black;
     }
 }
 
